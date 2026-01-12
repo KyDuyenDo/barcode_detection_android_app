@@ -1,0 +1,215 @@
+
+SYSTEM DESIGN DOCUMENT
+Motion-Aware Barcode & PO Scanning Pipeline
+==================================================
+
+1. SYSTEM GOAL
+--------------------------------------------------
+Design a robust, long-running (7–8 hours) on-device system that:
+- Detects and scans barcodes reliably
+- Extracts PO information below the barcode when available
+- Avoids duplicate counting
+- Handles motion, vibration, occlusion, and fast movement
+- Resets only when the box truly leaves the camera
+- Is optimized for low heat, low power, and stability
+
+
+2. HIGH-LEVEL WORKFLOW
+--------------------------------------------------
+Camera Frame
+   -> Motion Detection
+   -> Blur / Image Quality Check
+   -> ML Kit Barcode Detection
+   -> PO OCR (below barcode)
+   -> SUCCESS (lock current box)
+   -> Barcode Tracking (ML Kit continues)
+   -> Motion-Aware Loss Detection
+   -> RESET
+   -> Wait for next box and repeat
+
+
+3. SYSTEM STATES (STATE MACHINE)
+--------------------------------------------------
+IDLE       : Motion detection only, ML Kit OFF
+SCANNING   : ML Kit ON, searching for barcode
+DECODED    : Barcode (and PO) confirmed, tracking active
+RESETTING  : Cleanup and cooldown before next scan
+
+
+4. DETAILED PROCESSING LOGIC
+--------------------------------------------------
+
+4.1 Motion Detection (IDLE -> SCANNING)
+Purpose:
+- Avoid running ML Kit unnecessarily
+- Reduce CPU usage and thermal load
+
+Logic:
+- Compare consecutive frames
+- Compute motion score
+- If motionScore >= threshold, transition to SCANNING
+
+
+4.2 Blur / Image Quality Check
+Purpose:
+- Prevent barcode detection on heavily blurred frames
+- Reduce false negatives and wasted computation
+
+Typical methods:
+- Variance of Laplacian
+- Gradient magnitude threshold
+
+Rules:
+- Image too blurry -> skip frame
+- Image acceptable -> allow ML Kit scan
+
+
+4.3 Barcode Detection (SCANNING)
+Conditions:
+- Motion detected
+- Image quality acceptable
+- Scan interval satisfied (throttling)
+
+Outcomes:
+- No barcode -> continue scanning (with timeout)
+- Barcode decoded -> transition to DECODED
+
+
+4.4 PO Extraction (Optional OCR)
+When:
+- Barcode detected
+- Bounding box available
+
+How:
+- Crop region below the barcode
+- Run OCR on cropped region
+- Validate PO format (regex or rules)
+
+Result:
+- Barcode + PO -> SUCCESS
+- Barcode only -> allowed or retried (business rule dependent)
+
+
+5. SUCCESS LOCK & TRACKING (DECODED)
+--------------------------------------------------
+Once barcode (and PO) are accepted:
+- The system locks the current box
+- No new box is counted
+- ML Kit continues running at low frequency
+- Goal: determine when the box truly leaves the camera
+
+
+6. MOTION-AWARE BARCODE LOSS HANDLING
+--------------------------------------------------
+
+6.1 Problem
+Barcode may temporarily disappear due to:
+- Vibration
+- Fast movement
+- Partial occlusion
+- Motion blur
+
+Immediate reset would cause false loss.
+
+
+6.2 Barcode Motion Level
+When barcode is visible, compute motion:
+
+dx = |center_x(t) - center_x(t-1)|
+dy = |center_y(t) - center_y(t-1)|
+motionMagnitude = sqrt(dx^2 + dy^2)
+
+Motion classification:
+LOW    : Almost static
+MEDIUM : Shaking / oscillating
+HIGH   : Fast movement / sliding
+
+
+6.3 Adaptive Loss Threshold
+Reset is NOT based on a fixed number of missed frames.
+
+Allowed consecutive misses:
+LOW    : ~5 frames
+MEDIUM : ~10 frames
+HIGH   : 20–30 frames
+
+
+6.4 Reset Condition
+System resets only if ALL conditions are met:
+1. Barcode not detected continuously
+2. Miss count exceeds threshold based on last motion level
+3. No barcode reappears within the allowed time window
+
+This distinguishes temporary loss from true exit.
+
+
+7. RESET & COOLDOWN
+--------------------------------------------------
+When reset is triggered:
+- Clear barcode, PO, bounding box
+- Reset motion detector
+- Enter cooldown period
+
+Cooldown purpose:
+- Allow next box to enter the frame
+- Avoid scanning noise immediately after reset
+
+
+8. DESIGN PRINCIPLES
+--------------------------------------------------
+- ML Kit runs only when necessary
+- Reset is time- and motion-aware
+- No image scaling for inference
+- Bounding boxes remain in image coordinates
+- System favors stability over aggressiveness
+
+
+9. EXPECTED REAL-WORLD BEHAVIOR
+--------------------------------------------------
+Box shakes                    -> No reset
+Barcode briefly disappears    -> No reset
+Box moves fast in frame       -> No reset
+Box fully exits camera        -> Reset
+New box enters                -> Normal scan
+
+
+10. TASK BREAKDOWN FOR AGENTS
+--------------------------------------------------
+
+Agent 1: Motion Detection & Blur Filtering
+- Implement motion detection
+- Implement blur / quality scoring
+- Provide hasMotion(frame) and isImageAcceptable(frame)
+
+
+Agent 2: Barcode Detection (ML Kit)
+- Integrate ML Kit barcode scanning
+- Throttle inference
+- Output barcode value, bounding box, timestamp
+
+
+Agent 3: Barcode Tracking & Motion Analysis
+- Track bounding box across frames
+- Compute motion magnitude
+- Classify motion level (LOW / MEDIUM / HIGH)
+
+
+Agent 4: Reset Logic & State Machine
+- Implement state transitions
+- Adaptive miss-count logic
+- Reset conditions and cooldown
+
+
+Agent 5: PO OCR (Optional)
+- Crop PO region below barcode
+- Run OCR conditionally
+- Validate PO format
+
+
+Agent 6: System Integration & Performance
+- Integrate all modules
+- Ensure thread safety
+- Monitor FPS, latency, and thermal behavior
+- Perform long-run stability tests (>= 7 hours)
+
+END OF DOCUMENT

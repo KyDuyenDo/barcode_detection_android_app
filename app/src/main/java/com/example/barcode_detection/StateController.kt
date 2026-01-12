@@ -10,7 +10,7 @@ class StateController {
 
     fun transitionTo(newState: AppState, reason: String = "") {
         if (state == newState) return
-        Log.i("State", "$state → $newState ($reason)")
+        Log.i("STATE", "$state → $newState ($reason)")
         state = newState
     }
 }

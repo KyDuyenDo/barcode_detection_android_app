@@ -1,44 +1,44 @@
 package com.example.barcode_detection
 
-import android.graphics.Bitmap
+import androidx.camera.core.ImageProxy
 import kotlin.math.abs
 
 class MotionDetector(private val config: SystemConfig) {
 
-    private var prev: IntArray? = null
-    private var w = 0
-    private var h = 0
+    private var prevY: ByteArray? = null
+    private var prevW = 0
+    private var prevH = 0
 
-    fun hasMotion(bitmap: Bitmap): Boolean {
-        val width = bitmap.width
-        val height = bitmap.height
-        val pixels = IntArray(width * height)
-        bitmap.getPixels(pixels, 0, width, 0, 0, width, height)
+    fun hasMotion(proxy: ImageProxy): Boolean {
+        val yBuffer = proxy.planes[0].buffer
+        val w = proxy.width
+        val h = proxy.height
 
-        if (prev == null || w != width || h != height) {
-            prev = pixels
-            w = width
-            h = height
+        val ySize = yBuffer.remaining()
+        val y = ByteArray(ySize)
+        yBuffer.get(y)
+
+        if (prevY == null || prevW != w || prevH != h) {
+            prevY = y
+            prevW = w
+            prevH = h
             return false
         }
 
-        var diffSum = 0L
-        for (i in pixels.indices step 4) {
-            val c = pixels[i]
-            val p = prev!![i]
+        var diff = 0L
+        val step = 16 // VERY important: skip aggressively
 
-            val g1 = ((c shr 16) and 0xff + (c shr 8) and 0xff + (c and 0xff)) / 3
-            val g2 = ((p shr 16) and 0xff + (p shr 8) and 0xff + (p and 0xff)) / 3
-            diffSum += abs(g1 - g2)
+        for (i in y.indices step step) {
+            diff += abs((y[i].toInt() and 0xff) - (prevY!![i].toInt() and 0xff))
         }
 
-        prev = pixels
-        val max = (pixels.size / 4) * 255f
-        val score = diffSum / max
-        return score >= config.motionThreshold
+        prevY = y
+
+        val score = diff.toFloat() / ((ySize / step) * 255f)
+        return score > config.motionThreshold
     }
 
     fun reset() {
-        prev = null
+        prevY = null
     }
 }

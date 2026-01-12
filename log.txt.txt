@@ -1,0 +1,748 @@
+2026-01-12 11:03:39.768  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.61296654, bbox=RectF(180.83719, 355.78735, 315.3215, 431.15692)
+2026-01-12 11:03:39.789  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:39.871  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:39.871  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6092413, bbox=RectF(181.31973, 355.8993, 315.14316, 431.13483)
+2026-01-12 11:03:39.898  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:39.987  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:39.987  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6409522, bbox=RectF(180.90576, 356.91788, 315.3152, 431.1284)
+2026-01-12 11:03:40.005  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:40.103  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:40.103  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.70792925, bbox=RectF(179.87738, 357.18433, 315.67175, 431.04242)
+2026-01-12 11:03:40.131  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:40.215  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:40.216  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.67399174, bbox=RectF(180.07458, 357.6708, 316.6579, 430.75687)
+2026-01-12 11:03:40.238  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:40.317  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:40.317  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6391256, bbox=RectF(181.27246, 358.27048, 314.87402, 430.6075)
+2026-01-12 11:03:40.337  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:40.423  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=0
+2026-01-12 11:03:40.423  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:40.438  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:40.521  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=1
+2026-01-12 11:03:40.521  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.53445846, bbox=RectF(181.83224, 358.5381, 314.79495, 431.68616)
+2026-01-12 11:03:40.542  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:40.640  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:40.640  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.69102496, bbox=RectF(181.54025, 357.37927, 315.77365, 430.61945)
+2026-01-12 11:03:40.654  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:40.716  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 396KB AllocSpace bytes, 6(5624KB) LOS objects, 49% free, 9795KB/19MB, paused 593us,14.020ms total 65.088ms
+2026-01-12 11:03:40.744  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:40.745  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.68963504, bbox=RectF(181.76477, 357.25006, 316.38202, 430.81793)
+2026-01-12 11:03:40.758  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:40.853  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:40.853  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6622275, bbox=RectF(181.18423, 357.68997, 316.19266, 431.43246)
+2026-01-12 11:03:40.870  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:40.964  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:40.964  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.68959767, bbox=RectF(182.35773, 357.4726, 317.00262, 431.5429)
+2026-01-12 11:03:40.989  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:41.089  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:41.090  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6471958, bbox=RectF(181.22546, 357.671, 315.75427, 431.47818)
+2026-01-12 11:03:41.111  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:41.156  4547-7737  rcode_detection         com.example.barcode_detection        I  Background young concurrent mark compact GC freed 496KB AllocSpace bytes, 9(8436KB) LOS objects, 35% free, 12MB/19MB, paused 213us,8.810ms total 35.091ms
+2026-01-12 11:03:41.227  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:41.227  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6886953, bbox=RectF(180.73819, 357.72202, 315.8666, 431.62473)
+2026-01-12 11:03:41.243  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:41.332  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 400KB AllocSpace bytes, 6(5624KB) LOS objects, 49% free, 9795KB/19MB, paused 765us,14.900ms total 90.496ms
+2026-01-12 11:03:41.347  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:41.347  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.64719725, bbox=RectF(180.96143, 358.58344, 315.36078, 431.2552)
+2026-01-12 11:03:41.368  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:41.455  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:41.455  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.68031573, bbox=RectF(181.15091, 357.26813, 314.70645, 430.97015)
+2026-01-12 11:03:41.469  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:41.563  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:41.563  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6413346, bbox=RectF(181.64938, 357.8374, 314.30502, 431.52142)
+2026-01-12 11:03:41.585  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:41.669  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:41.669  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.5990609, bbox=RectF(180.86743, 358.15973, 314.21094, 431.73517)
+2026-01-12 11:03:41.695  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:41.722  4547-7737  rcode_detection         com.example.barcode_detection        I  Background young concurrent mark compact GC freed 464KB AllocSpace bytes, 9(8436KB) LOS objects, 35% free, 12MB/19MB, paused 541us,8.500ms total 43.065ms
+2026-01-12 11:03:41.786  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:41.786  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.65076506, bbox=RectF(180.84354, 358.3537, 314.3621, 431.17755)
+2026-01-12 11:03:41.800  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:41.900  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:41.900  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6270557, bbox=RectF(180.88638, 358.46042, 314.38962, 431.30753)
+2026-01-12 11:03:41.918  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:42.010  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:42.010  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.5984851, bbox=RectF(182.04803, 358.1341, 315.20142, 431.5188)
+2026-01-12 11:03:42.037  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:42.115  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:42.115  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6675278, bbox=RectF(181.08044, 357.7754, 314.9947, 430.95984)
+2026-01-12 11:03:42.145  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:42.218  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:42.218  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.66325325, bbox=RectF(180.4469, 358.06793, 314.26978, 430.8675)
+2026-01-12 11:03:42.235  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:42.324  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:42.324  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.66246736, bbox=RectF(181.16397, 357.4863, 315.12692, 431.09427)
+2026-01-12 11:03:42.341  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:42.435  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:42.435  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6615124, bbox=RectF(180.73987, 357.42926, 315.32355, 431.13922)
+2026-01-12 11:03:42.459  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:42.545  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:42.545  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6223369, bbox=RectF(180.03735, 358.48248, 315.77478, 431.52234)
+2026-01-12 11:03:42.571  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:42.644  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:42.644  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6872098, bbox=RectF(180.99612, 357.1366, 315.9042, 431.08173)
+2026-01-12 11:03:42.673  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:42.749  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:42.749  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6235101, bbox=RectF(180.40793, 357.9883, 315.5565, 431.2692)
+2026-01-12 11:03:42.768  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:42.873  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:42.873  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6893076, bbox=RectF(178.8916, 358.41403, 315.4508, 431.28244)
+2026-01-12 11:03:42.883  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:42.989  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:42.989  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6876332, bbox=RectF(179.14932, 357.1426, 316.08194, 430.84592)
+2026-01-12 11:03:43.008  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:43.096  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:43.096  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6815225, bbox=RectF(178.81671, 357.97275, 316.08295, 430.9445)
+2026-01-12 11:03:43.123  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:43.210  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:43.210  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6463514, bbox=RectF(180.40332, 356.44412, 314.69934, 429.69797)
+2026-01-12 11:03:43.233  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:43.313  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:43.313  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7246876, bbox=RectF(179.50336, 356.84317, 316.61407, 431.00082)
+2026-01-12 11:03:43.352  4547-7737  rcode_detection         com.example.barcode_detection        I  Background young concurrent mark compact GC freed 464KB AllocSpace bytes, 9(8436KB) LOS objects, 35% free, 12MB/19MB, paused 239us,5.804ms total 30.529ms
+2026-01-12 11:03:43.353  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:43.428  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:43.429  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.73968107, bbox=RectF(179.14014, 356.93356, 316.02863, 431.19308)
+2026-01-12 11:03:43.454  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:43.541  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:43.541  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7404251, bbox=RectF(179.76953, 357.11224, 315.4143, 431.21783)
+2026-01-12 11:03:43.567  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:43.641  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:43.641  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6722001, bbox=RectF(180.70209, 357.44406, 315.65778, 430.894)
+2026-01-12 11:03:43.675  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:43.757  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:43.757  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7052661, bbox=RectF(179.85672, 357.56436, 317.47647, 430.66776)
+2026-01-12 11:03:43.786  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:43.870  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:43.870  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6710103, bbox=RectF(180.54037, 358.58453, 317.21426, 431.42322)
+2026-01-12 11:03:43.894  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:44.006  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:44.007  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.63976896, bbox=RectF(180.52597, 358.34393, 316.39987, 431.1952)
+2026-01-12 11:03:44.021  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:44.112  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:44.112  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.60520923, bbox=RectF(182.37708, 358.2099, 316.13293, 431.79248)
+2026-01-12 11:03:44.141  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:44.177  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 396KB AllocSpace bytes, 9(8436KB) LOS objects, 49% free, 9799KB/19MB, paused 302us,5.365ms total 53.106ms
+2026-01-12 11:03:44.230  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:44.230  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6100029, bbox=RectF(182.32553, 358.41226, 317.23154, 430.79453)
+2026-01-12 11:03:44.250  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:44.342  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:44.342  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.62312543, bbox=RectF(181.55685, 357.16125, 318.55887, 430.61505)
+2026-01-12 11:03:44.371  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:44.446  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:44.446  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.66452855, bbox=RectF(182.2669, 357.67014, 317.10895, 432.0184)
+2026-01-12 11:03:44.474  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:44.545  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:44.545  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6118591, bbox=RectF(184.4483, 359.66885, 318.0083, 433.22458)
+2026-01-12 11:03:44.567  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:44.666  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:44.666  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.57295245, bbox=RectF(183.25601, 358.2633, 317.54776, 432.42645)
+2026-01-12 11:03:44.681  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:44.739  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 432KB AllocSpace bytes, 6(5624KB) LOS objects, 49% free, 9795KB/19MB, paused 552us,12.973ms total 61.861ms
+2026-01-12 11:03:44.771  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=0
+2026-01-12 11:03:44.771  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:44.788  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:44.883  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=1
+2026-01-12 11:03:44.883  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.55317456, bbox=RectF(184.26971, 359.02673, 316.65594, 431.70538)
+2026-01-12 11:03:44.913  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:45.011  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:45.012  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.5996354, bbox=RectF(182.01324, 359.0719, 316.5091, 431.00842)
+2026-01-12 11:03:45.038  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:45.113  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:45.113  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.95715326, bbox=RectF(168.94724, 347.14737, 315.65964, 430.04886)
+2026-01-12 11:03:45.132  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:45.216  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:45.217  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.967528, bbox=RectF(148.5998, 334.76276, 304.96997, 431.0802)
+2026-01-12 11:03:45.232  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:45.334  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:45.335  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.64953667, bbox=RectF(134.9415, 344.586, 283.82162, 425.02435)
+2026-01-12 11:03:45.349  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:45.441  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=0
+2026-01-12 11:03:45.441  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:45.463  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:45.542  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=1
+2026-01-12 11:03:45.542  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:45.563  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:45.638  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=2
+2026-01-12 11:03:45.638  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:45.663  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:45.696  4547-7737  rcode_detection         com.example.barcode_detection        I  Background young concurrent mark compact GC freed 468KB AllocSpace bytes, 9(8436KB) LOS objects, 34% free, 11MB/18MB, paused 1.100ms,12.710ms total 43.136ms
+2026-01-12 11:03:45.754  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=3
+2026-01-12 11:03:45.754  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:45.781  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:45.855  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=4
+2026-01-12 11:03:45.855  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.93224466, bbox=RectF(160.16066, 331.81842, 310.04865, 428.4425)
+2026-01-12 11:03:45.888  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:45.975  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:45.975  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6736458, bbox=RectF(185.1576, 333.55243, 331.17517, 426.14496)
+2026-01-12 11:03:46.008  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:46.100  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:46.100  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.79419565, bbox=RectF(212.03134, 347.57858, 352.75406, 424.14664)
+2026-01-12 11:03:46.115  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:46.199  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:46.199  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.5413331, bbox=RectF(216.6745, 351.71487, 347.52728, 424.2734)
+2026-01-12 11:03:46.215  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:46.269  4547-7737  rcode_detection         com.example.barcode_detection        I  Background young concurrent mark compact GC freed 440KB AllocSpace bytes, 7(6028KB) LOS objects, 37% free, 11MB/19MB, paused 892us,8.220ms total 52.671ms
+2026-01-12 11:03:46.305  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:46.306  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.8514365, bbox=RectF(211.49863, 350.71094, 348.64023, 425.6687)
+2026-01-12 11:03:46.329  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:46.445  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=0
+2026-01-12 11:03:46.445  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:46.463  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:46.579  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=1
+2026-01-12 11:03:46.579  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.98449033, bbox=RectF(167.53574, 343.17844, 314.7957, 426.13974)
+2026-01-12 11:03:46.595  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:46.701  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 420KB AllocSpace bytes, 11(10MB) LOS objects, 49% free, 9803KB/19MB, paused 636us,8.166ms total 107.132ms
+2026-01-12 11:03:46.712  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:46.712  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.71264666, bbox=RectF(145.10297, 337.93265, 286.149, 418.33676)
+2026-01-12 11:03:46.729  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:46.828  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=0
+2026-01-12 11:03:46.829  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:46.844  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:46.936  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=1
+2026-01-12 11:03:46.936  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7074463, bbox=RectF(146.13231, 342.54993, 284.61334, 421.4356)
+2026-01-12 11:03:46.975  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:47.057  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:47.057  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.97067136, bbox=RectF(168.00513, 335.28534, 310.651, 424.59784)
+2026-01-12 11:03:47.079  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:47.182  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:47.183  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.69023794, bbox=RectF(181.79327, 339.0419, 323.26892, 421.94803)
+2026-01-12 11:03:47.200  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:47.371  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:47.372  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.70721835, bbox=RectF(182.71863, 341.61145, 315.56494, 420.95984)
+2026-01-12 11:03:47.404  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:47.477  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=0
+2026-01-12 11:03:47.477  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:47.496  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:47.595  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=1
+2026-01-12 11:03:47.595  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:47.616  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:47.702  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=2
+2026-01-12 11:03:47.702  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:47.745  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:47.819  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=3
+2026-01-12 11:03:47.819  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:47.855  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:47.946  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=4
+2026-01-12 11:03:47.946  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:47.946  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode EXITED (missCount=5)
+2026-01-12 11:03:47.946  4547-7871  MainActivity            com.example.barcode_detection        W  EXIT TRIGGERED! Barcode exited after 5 misses
+2026-01-12 11:03:47.946  4547-7871  StateController         com.example.barcode_detection        I  State transition: DECODED -> RESETTING (reason: Barcode exited)
+2026-01-12 11:03:47.946  4547-7871  MainActivity            com.example.barcode_detection        I  State: DECODED -> RESETTING
+2026-01-12 11:03:47.955  4547-7871  TemporalVoting          com.example.barcode_detection        D  Temporal voting reset
+2026-01-12 11:03:47.955  4547-7871  MotionDetector          com.example.barcode_detection        D  Motion detector reset
+2026-01-12 11:03:47.955  4547-7871  MainActivity            com.example.barcode_detection        I  System reset complete
+2026-01-12 11:03:47.955  4547-7871  StateController         com.example.barcode_detection        I  State transition: RESETTING -> IDLE (reason: Reset complete)
+2026-01-12 11:03:47.955  4547-7871  MainActivity            com.example.barcode_detection        I  State: RESETTING -> IDLE
+2026-01-12 11:03:47.960  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:47.979  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:47.991  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:48.982  4547-7871  StateController         com.example.barcode_detection        I  State transition: IDLE -> DETECTING (reason: Motion detected)
+2026-01-12 11:03:48.982  4547-7871  MainActivity            com.example.barcode_detection        I  State: IDLE -> DETECTING
+2026-01-12 11:03:49.006  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.013  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.131  4547-7871  TemporalVoting          com.example.barcode_detection        V  Barcode DETECTING (detectCount=1, stableFrames=1)
+2026-01-12 11:03:49.147  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.272  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode STABLE (detectCount=2, stableFrames=2)
+2026-01-12 11:03:49.272  4547-7871  StateController         com.example.barcode_detection        I  State transition: DETECTING -> READY_TO_DECODE (reason: Barcode stable (detect=2))
+2026-01-12 11:03:49.272  4547-7871  MainActivity            com.example.barcode_detection        I  State: DETECTING -> READY_TO_DECODE
+2026-01-12 11:03:49.300  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.306  4547-4547  BarcodeDecoder          com.example.barcode_detection        W  No barcode found
+2026-01-12 11:03:49.307  4547-4547  MainActivity            com.example.barcode_detection        W  Barcode decode failed
+2026-01-12 11:03:49.307  4547-4547  StateController         com.example.barcode_detection        I  State transition: READY_TO_DECODE -> DETECTING (reason: Decode failed)
+2026-01-12 11:03:49.307  4547-4547  MainActivity            com.example.barcode_detection        I  State: READY_TO_DECODE -> DETECTING
+2026-01-12 11:03:49.309  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.337  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.343  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.438  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 492KB AllocSpace bytes, 3(2812KB) LOS objects, 49% free, 9363KB/18MB, paused 1.224ms,9.286ms total 54.033ms
+2026-01-12 11:03:49.479  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode STABLE (detectCount=3, stableFrames=3)
+2026-01-12 11:03:49.479  4547-7871  StateController         com.example.barcode_detection        I  State transition: DETECTING -> READY_TO_DECODE (reason: Barcode stable (detect=3))
+2026-01-12 11:03:49.479  4547-7871  MainActivity            com.example.barcode_detection        I  State: DETECTING -> READY_TO_DECODE
+2026-01-12 11:03:49.498  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.507  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.528  4547-4547  BarcodeDecoder          com.example.barcode_detection        W  No barcode found
+2026-01-12 11:03:49.528  4547-4547  MainActivity            com.example.barcode_detection        W  Barcode decode failed
+2026-01-12 11:03:49.528  4547-4547  StateController         com.example.barcode_detection        I  State transition: READY_TO_DECODE -> DETECTING (reason: Decode failed)
+2026-01-12 11:03:49.528  4547-4547  MainActivity            com.example.barcode_detection        I  State: READY_TO_DECODE -> DETECTING
+2026-01-12 11:03:49.530  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.548  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.553  4547-4547  BarcodeDecoder          com.example.barcode_detection        W  No barcode found
+2026-01-12 11:03:49.553  4547-4547  MainActivity            com.example.barcode_detection        W  Barcode decode failed
+2026-01-12 11:03:49.553  4547-4547  StateController         com.example.barcode_detection        W  Transition blocked: DETECTING -> DETECTING (reason: Decode failed)
+2026-01-12 11:03:49.554  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.664  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode STABLE (detectCount=4, stableFrames=4)
+2026-01-12 11:03:49.664  4547-7871  StateController         com.example.barcode_detection        I  State transition: DETECTING -> READY_TO_DECODE (reason: Barcode stable (detect=4))
+2026-01-12 11:03:49.664  4547-7871  MainActivity            com.example.barcode_detection        I  State: DETECTING -> READY_TO_DECODE
+2026-01-12 11:03:49.678  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.689  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.708  4547-7981  StreamingFormatChecker  com.example.barcode_detection        W  ML Kit has detected that you seem to pass camera frames to the detector as a Bitmap object. This is inefficient. Please use YUV_420_888 format for camera2 API or NV21 format for (legacy) camera API and directly pass down the byte array to ML Kit.
+2026-01-12 11:03:49.709  4547-4547  BarcodeDecoder          com.example.barcode_detection        W  No barcode found
+2026-01-12 11:03:49.709  4547-4547  MainActivity            com.example.barcode_detection        W  Barcode decode failed
+2026-01-12 11:03:49.709  4547-4547  StateController         com.example.barcode_detection        I  State transition: READY_TO_DECODE -> DETECTING (reason: Decode failed)
+2026-01-12 11:03:49.709  4547-4547  MainActivity            com.example.barcode_detection        I  State: READY_TO_DECODE -> DETECTING
+2026-01-12 11:03:49.712  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.727  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.743  4547-4547  BarcodeDecoder          com.example.barcode_detection        I  Barcode decoded: 8850722045412 (EAN_13)
+2026-01-12 11:03:49.743  4547-4547  StateController         com.example.barcode_detection        W  Transition blocked: DETECTING -> DECODED (reason: Barcode decoded: 8850722045412)
+2026-01-12 11:03:49.748  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.783  4547-7951  tflite                  com.example.barcode_detection        I  Replacing 44 out of 46 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 3 partitions for the whole graph.
+2026-01-12 11:03:49.814  4547-4547  POOCRProcessor          com.example.barcode_detection        W  PO validation failed. Raw text: ''
+2026-01-12 11:03:49.815  4547-4547  DataLogger              com.example.barcode_detection        I  Logged box #10: 8850722045412 (PO: N/A)
+2026-01-12 11:03:49.861  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode STABLE (detectCount=5, stableFrames=5)
+2026-01-12 11:03:49.862  4547-7871  StateController         com.example.barcode_detection        I  State transition: DETECTING -> READY_TO_DECODE (reason: Barcode stable (detect=5))
+2026-01-12 11:03:49.864  4547-7871  MainActivity            com.example.barcode_detection        I  State: DETECTING -> READY_TO_DECODE
+2026-01-12 11:03:49.878  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.895  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.906  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.920  4547-4547  BarcodeDecoder          com.example.barcode_detection        I  Barcode decoded: 8850722045412 (EAN_13)
+2026-01-12 11:03:49.920  4547-4547  StateController         com.example.barcode_detection        I  State transition: READY_TO_DECODE -> DECODED (reason: Barcode decoded: 8850722045412)
+2026-01-12 11:03:49.920  4547-4547  MainActivity            com.example.barcode_detection        I  State: READY_TO_DECODE -> DECODED
+2026-01-12 11:03:49.921  4547-4547  BarcodeDecoder          com.example.barcode_detection        I  Barcode decoded: 8850722045412 (EAN_13)
+2026-01-12 11:03:49.921  4547-4547  StateController         com.example.barcode_detection        W  Transition blocked: DECODED -> DECODED (reason: Barcode decoded: 8850722045412)
+2026-01-12 11:03:49.925  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.947  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.959  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:49.972  4547-4547  POOCRProcessor          com.example.barcode_detection        W  PO validation failed. Raw text: ''
+2026-01-12 11:03:49.974  4547-4547  DataLogger              com.example.barcode_detection        I  Logged box #11: 8850722045412 (PO: N/A)
+2026-01-12 11:03:50.018  4547-4547  POOCRProcessor          com.example.barcode_detection        W  PO validation failed. Raw text: ''
+2026-01-12 11:03:50.020  4547-4547  DataLogger              com.example.barcode_detection        I  Logged box #12: 8850722045412 (PO: N/A)
+2026-01-12 11:03:50.033  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:50.034  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7174899, bbox=RectF(161.026, 348.2315, 293.5515, 421.84155)
+2026-01-12 11:03:50.058  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:50.139  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:50.140  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7122242, bbox=RectF(160.8034, 347.99023, 294.41278, 421.59003)
+2026-01-12 11:03:50.157  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:50.212  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 404KB AllocSpace bytes, 7(7628KB) LOS objects, 49% free, 9799KB/19MB, paused 1.134ms,8.319ms total 59.237ms
+2026-01-12 11:03:50.253  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:50.254  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.65913206, bbox=RectF(160.78983, 347.2135, 294.66202, 422.15247)
+2026-01-12 11:03:50.276  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:50.359  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:50.359  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6625462, bbox=RectF(160.17984, 346.65045, 292.9642, 421.8719)
+2026-01-12 11:03:50.375  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:50.464  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:50.464  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7162108, bbox=RectF(158.83994, 346.87686, 292.58914, 422.24515)
+2026-01-12 11:03:50.497  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:50.533  4547-7737  rcode_detection         com.example.barcode_detection        I  Background young concurrent mark compact GC freed 440KB AllocSpace bytes, 7(6028KB) LOS objects, 37% free, 11MB/19MB, paused 1.055ms,7.421ms total 50.763ms
+2026-01-12 11:03:50.577  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:50.577  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7600046, bbox=RectF(159.38925, 347.4762, 291.95853, 422.0775)
+2026-01-12 11:03:50.596  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:50.682  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:50.682  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.72648215, bbox=RectF(159.92572, 345.58185, 293.8224, 422.08826)
+2026-01-12 11:03:50.708  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:50.792  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:50.792  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.76491743, bbox=RectF(159.62964, 346.22305, 294.10333, 422.52365)
+2026-01-12 11:03:50.806  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:50.873  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 420KB AllocSpace bytes, 11(10MB) LOS objects, 49% free, 9835KB/19MB, paused 654us,7.991ms total 72.296ms
+2026-01-12 11:03:50.898  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:50.898  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7200501, bbox=RectF(159.59677, 346.3087, 292.74374, 422.2607)
+2026-01-12 11:03:50.922  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:51.003  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:51.003  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7561472, bbox=RectF(158.65567, 346.75336, 294.70963, 422.51166)
+2026-01-12 11:03:51.021  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:51.106  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:51.106  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.73887473, bbox=RectF(159.57083, 346.11133, 294.55563, 422.30475)
+2026-01-12 11:03:51.122  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:51.211  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:51.212  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7625032, bbox=RectF(159.61737, 346.18115, 292.4381, 422.05707)
+2026-01-12 11:03:51.231  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:51.327  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:51.327  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.74783576, bbox=RectF(158.63742, 347.4286, 293.99643, 422.8435)
+2026-01-12 11:03:51.340  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:51.424  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:51.424  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7180854, bbox=RectF(158.54555, 345.71133, 293.6505, 422.49387)
+2026-01-12 11:03:51.440  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:51.492  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 396KB AllocSpace bytes, 9(8436KB) LOS objects, 49% free, 9831KB/19MB, paused 273us,10.007ms total 56.406ms
+2026-01-12 11:03:51.533  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:51.534  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7423121, bbox=RectF(159.38058, 346.19012, 292.61514, 422.92554)
+2026-01-12 11:03:51.556  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:51.642  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:51.642  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.72115576, bbox=RectF(158.45047, 345.9259, 292.2238, 422.69293)
+2026-01-12 11:03:51.653  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:51.775  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:51.775  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7486155, bbox=RectF(158.31091, 345.64017, 291.83325, 422.58133)
+2026-01-12 11:03:51.793  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:51.884  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:51.884  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.76827914, bbox=RectF(158.61577, 346.03983, 292.40814, 422.4191)
+2026-01-12 11:03:51.918  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:51.956  4547-7737  rcode_detection         com.example.barcode_detection        I  Background young concurrent mark compact GC freed 468KB AllocSpace bytes, 9(8436KB) LOS objects, 35% free, 12MB/19MB, paused 742us,8.157ms total 59.066ms
+2026-01-12 11:03:52.025  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:52.026  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7269126, bbox=RectF(157.86673, 346.31305, 292.44418, 422.7788)
+2026-01-12 11:03:52.044  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:52.151  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:52.151  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7314386, bbox=RectF(156.92105, 348.5852, 292.1218, 423.16943)
+2026-01-12 11:03:52.178  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:52.227  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 424KB AllocSpace bytes, 9(8436KB) LOS objects, 49% free, 9803KB/19MB, paused 985us,8.066ms total 65.222ms
+2026-01-12 11:03:52.269  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:52.271  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.76344556, bbox=RectF(158.33542, 346.19446, 292.64438, 423.21313)
+2026-01-12 11:03:52.287  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:52.375  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:52.375  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.71035933, bbox=RectF(160.00305, 346.38458, 292.71375, 422.5559)
+2026-01-12 11:03:52.390  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:52.483  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:52.484  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6098385, bbox=RectF(160.23912, 345.90808, 293.68463, 421.735)
+2026-01-12 11:03:52.517  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:52.576  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:52.576  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.61729586, bbox=RectF(159.25406, 344.99686, 293.37753, 421.98447)
+2026-01-12 11:03:52.587  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:52.705  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:52.705  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.68916225, bbox=RectF(159.18233, 346.24628, 294.27954, 422.2213)
+2026-01-12 11:03:52.728  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:52.856  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 396KB AllocSpace bytes, 6(5624KB) LOS objects, 49% free, 9799KB/19MB, paused 702us,8.823ms total 97.472ms
+2026-01-12 11:03:52.894  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:52.894  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.70074683, bbox=RectF(158.46436, 348.70743, 292.95593, 422.9025)
+2026-01-12 11:03:52.912  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:53.031  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:53.031  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.70820135, bbox=RectF(158.86154, 348.4472, 292.99576, 422.33636)
+2026-01-12 11:03:53.054  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:53.136  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:53.137  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.64565676, bbox=RectF(159.30899, 345.3885, 293.9518, 421.748)
+2026-01-12 11:03:53.154  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:53.251  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:53.251  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.67634434, bbox=RectF(161.0877, 345.48123, 293.64777, 421.08438)
+2026-01-12 11:03:53.273  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:53.368  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:53.368  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7047881, bbox=RectF(160.24649, 347.42896, 293.9824, 422.35107)
+2026-01-12 11:03:53.387  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:53.466  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 400KB AllocSpace bytes, 7(6028KB) LOS objects, 49% free, 9391KB/18MB, paused 550us,8.836ms total 77.259ms
+2026-01-12 11:03:53.472  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:53.472  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.74265486, bbox=RectF(159.72607, 348.84625, 293.4154, 422.54333)
+2026-01-12 11:03:53.492  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:53.578  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:53.578  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.77937925, bbox=RectF(157.69055, 346.2625, 293.69794, 424.24457)
+2026-01-12 11:03:53.611  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:53.682  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:53.682  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.77461857, bbox=RectF(149.1691, 356.50687, 290.4982, 429.93405)
+2026-01-12 11:03:53.710  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:53.795  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:53.795  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.8206598, bbox=RectF(147.44046, 358.47397, 292.08676, 430.60178)
+2026-01-12 11:03:53.820  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:53.910  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:53.910  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7979997, bbox=RectF(146.8457, 357.86926, 290.8839, 430.98663)
+2026-01-12 11:03:53.937  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:54.010  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:54.011  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.76343906, bbox=RectF(146.70691, 359.90094, 290.67426, 430.23578)
+2026-01-12 11:03:54.048  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:54.130  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:54.131  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7722053, bbox=RectF(146.10101, 361.70258, 291.09644, 430.59955)
+2026-01-12 11:03:54.152  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:54.232  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:54.232  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.50467634, bbox=RectF(141.92859, 365.90427, 292.82794, 434.37424)
+2026-01-12 11:03:54.251  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:54.344  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=0
+2026-01-12 11:03:54.344  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:54.370  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:54.449  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=1
+2026-01-12 11:03:54.449  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:54.469  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:54.501  4547-7737  rcode_detection         com.example.barcode_detection        I  Background young concurrent mark compact GC freed 536KB AllocSpace bytes, 9(8436KB) LOS objects, 35% free, 12MB/19MB, paused 475us,12.668ms total 42.154ms
+2026-01-12 11:03:54.548  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=2
+2026-01-12 11:03:54.548  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:54.568  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:54.643  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 400KB AllocSpace bytes, 6(5624KB) LOS objects, 49% free, 9795KB/19MB, paused 624us,7.699ms total 85.812ms
+2026-01-12 11:03:54.649  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=3
+2026-01-12 11:03:54.649  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:54.667  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:54.753  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=4
+2026-01-12 11:03:54.753  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:54.753  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode EXITED (missCount=5)
+2026-01-12 11:03:54.753  4547-7871  MainActivity            com.example.barcode_detection        W  EXIT TRIGGERED! Barcode exited after 5 misses
+2026-01-12 11:03:54.753  4547-7871  StateController         com.example.barcode_detection        I  State transition: DECODED -> RESETTING (reason: Barcode exited)
+2026-01-12 11:03:54.753  4547-7871  MainActivity            com.example.barcode_detection        I  State: DECODED -> RESETTING
+2026-01-12 11:03:54.770  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:54.772  4547-7871  TemporalVoting          com.example.barcode_detection        D  Temporal voting reset
+2026-01-12 11:03:54.772  4547-7871  MotionDetector          com.example.barcode_detection        D  Motion detector reset
+2026-01-12 11:03:54.772  4547-7871  MainActivity            com.example.barcode_detection        I  System reset complete
+2026-01-12 11:03:54.772  4547-7871  StateController         com.example.barcode_detection        I  State transition: RESETTING -> IDLE (reason: Reset complete)
+2026-01-12 11:03:54.772  4547-7871  MainActivity            com.example.barcode_detection        I  State: RESETTING -> IDLE
+2026-01-12 11:03:54.781  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:54.804  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:54.814  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:55.807  4547-7871  StateController         com.example.barcode_detection        I  State transition: IDLE -> DETECTING (reason: Motion detected)
+2026-01-12 11:03:55.807  4547-7871  MainActivity            com.example.barcode_detection        I  State: IDLE -> DETECTING
+2026-01-12 11:03:55.846  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:55.853  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:55.966  4547-7871  TemporalVoting          com.example.barcode_detection        V  Barcode DETECTING (detectCount=1, stableFrames=1)
+2026-01-12 11:03:55.985  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:56.086  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode STABLE (detectCount=2, stableFrames=2)
+2026-01-12 11:03:56.086  4547-7871  StateController         com.example.barcode_detection        I  State transition: DETECTING -> READY_TO_DECODE (reason: Barcode stable (detect=2))
+2026-01-12 11:03:56.087  4547-7871  MainActivity            com.example.barcode_detection        I  State: DETECTING -> READY_TO_DECODE
+2026-01-12 11:03:56.101  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:56.122  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:56.134  4547-4547  BarcodeDecoder          com.example.barcode_detection        W  No barcode found
+2026-01-12 11:03:56.135  4547-4547  MainActivity            com.example.barcode_detection        W  Barcode decode failed
+2026-01-12 11:03:56.136  4547-4547  StateController         com.example.barcode_detection        I  State transition: READY_TO_DECODE -> DETECTING (reason: Decode failed)
+2026-01-12 11:03:56.136  4547-4547  MainActivity            com.example.barcode_detection        I  State: READY_TO_DECODE -> DETECTING
+2026-01-12 11:03:56.140  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:56.147  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:56.162  4547-4547  BarcodeDecoder          com.example.barcode_detection        I  Barcode decoded: 8850722045412 (EAN_13)
+2026-01-12 11:03:56.162  4547-4547  StateController         com.example.barcode_detection        W  Transition blocked: DETECTING -> DECODED (reason: Barcode decoded: 8850722045412)
+2026-01-12 11:03:56.167  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:56.170  4547-7952  tflite                  com.example.barcode_detection        I  Replacing 44 out of 46 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 3 partitions for the whole graph.
+2026-01-12 11:03:56.182  4547-7952  tflite                  com.example.barcode_detection        I  Replacing 44 out of 46 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 3 partitions for the whole graph.
+2026-01-12 11:03:56.190  4547-7952  tflite                  com.example.barcode_detection        I  Replacing 44 out of 46 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 3 partitions for the whole graph.
+2026-01-12 11:03:56.231  4547-7952  tflite                  com.example.barcode_detection        I  Replacing 44 out of 46 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 3 partitions for the whole graph.
+2026-01-12 11:03:56.239  4547-7952  tflite                  com.example.barcode_detection        I  Replacing 44 out of 46 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 3 partitions for the whole graph.
+2026-01-12 11:03:56.246  4547-4547  POOCRProcessor          com.example.barcode_detection        W  PO validation failed. Raw text: ''
+2026-01-12 11:03:56.248  4547-4547  DataLogger              com.example.barcode_detection        I  Logged box #13: 8850722045412 (PO: N/A)
+2026-01-12 11:03:56.274  4547-7871  TemporalVoting          com.example.barcode_detection        V  Unstable: scaleRatio=1,24
+2026-01-12 11:03:56.274  4547-7871  TemporalVoting          com.example.barcode_detection        V  Barcode DETECTING (detectCount=3, stableFrames=0)
+2026-01-12 11:03:56.307  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:56.466  4547-7871  TemporalVoting          com.example.barcode_detection        V  Barcode DETECTING (detectCount=4, stableFrames=1)
+2026-01-12 11:03:56.490  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:56.574  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode STABLE (detectCount=5, stableFrames=2)
+2026-01-12 11:03:56.575  4547-7871  StateController         com.example.barcode_detection        I  State transition: DETECTING -> READY_TO_DECODE (reason: Barcode stable (detect=5))
+2026-01-12 11:03:56.575  4547-7871  MainActivity            com.example.barcode_detection        I  State: DETECTING -> READY_TO_DECODE
+2026-01-12 11:03:56.588  4547-7779  TransportR...EventStore com.example.barcode_detection        D  Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+2026-01-12 11:03:56.594  4547-7779  TransportR...oScheduler com.example.barcode_detection        D  Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+2026-01-12 11:03:56.599  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:56.607  4547-7779  TransportR...EventStore com.example.barcode_detection        D  Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+2026-01-12 11:03:56.614  4547-7779  TransportR...oScheduler com.example.barcode_detection        D  Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+2026-01-12 11:03:56.619  4547-4547  BarcodeDecoder          com.example.barcode_detection        I  Barcode decoded: 8850722045412 (EAN_13)
+2026-01-12 11:03:56.620  4547-4547  StateController         com.example.barcode_detection        I  State transition: READY_TO_DECODE -> DECODED (reason: Barcode decoded: 8850722045412)
+2026-01-12 11:03:56.620  4547-4547  MainActivity            com.example.barcode_detection        I  State: READY_TO_DECODE -> DECODED
+2026-01-12 11:03:56.623  4547-7779  TransportR...EventStore com.example.barcode_detection        D  Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+2026-01-12 11:03:56.623  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:56.626  4547-7952  tflite                  com.example.barcode_detection        I  Replacing 44 out of 46 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 3 partitions for the whole graph.
+2026-01-12 11:03:56.627  4547-7779  TransportR...oScheduler com.example.barcode_detection        D  Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+2026-01-12 11:03:56.630  4547-7779  TransportR...EventStore com.example.barcode_detection        D  Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+2026-01-12 11:03:56.631  4547-4547  BarcodeDecoder          com.example.barcode_detection        I  Barcode decoded: 8850722045412 (EAN_13)
+2026-01-12 11:03:56.631  4547-4547  StateController         com.example.barcode_detection        W  Transition blocked: DECODED -> DECODED (reason: Barcode decoded: 8850722045412)
+2026-01-12 11:03:56.632  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:56.633  4547-7779  TransportR...oScheduler com.example.barcode_detection        D  Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+2026-01-12 11:03:56.634  4547-7952  tflite                  com.example.barcode_detection        I  Replacing 44 out of 46 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 3 partitions for the whole graph.
+2026-01-12 11:03:56.641  4547-7952  tflite                  com.example.barcode_detection        I  Replacing 44 out of 46 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 3 partitions for the whole graph.
+2026-01-12 11:03:56.646  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:56.674  4547-4547  POOCRProcessor          com.example.barcode_detection        W  PO validation failed. Raw text: ''
+2026-01-12 11:03:56.675  4547-4547  DataLogger              com.example.barcode_detection        I  Logged box #14: 8850722045412 (PO: N/A)
+2026-01-12 11:03:56.702  4547-7951  tflite                  com.example.barcode_detection        I  Replacing 44 out of 46 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 3 partitions for the whole graph.
+2026-01-12 11:03:56.736  4547-4547  POOCRProcessor          com.example.barcode_detection        W  PO validation failed. Raw text: ''
+2026-01-12 11:03:56.739  4547-4547  DataLogger              com.example.barcode_detection        I  Logged box #15: 8850722045412 (PO: N/A)
+2026-01-12 11:03:56.764  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:56.764  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.83467567, bbox=RectF(156.6048, 368.844, 314.22357, 436.30164)
+2026-01-12 11:03:56.780  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:56.870  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:56.870  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.73972046, bbox=RectF(155.06644, 369.54233, 312.11276, 438.08194)
+2026-01-12 11:03:56.884  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:56.959  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 804KB AllocSpace bytes, 10(10MB) LOS objects, 49% free, 9875KB/19MB, paused 698us,10.463ms total 74.847ms
+2026-01-12 11:03:56.973  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:56.973  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.72292167, bbox=RectF(154.5434, 369.61887, 311.41223, 438.37894)
+2026-01-12 11:03:56.996  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:57.095  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:57.101  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7047036, bbox=RectF(154.42435, 370.5881, 310.9185, 438.98355)
+2026-01-12 11:03:57.116  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:57.242  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:57.243  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6447193, bbox=RectF(167.35667, 370.62805, 310.69348, 433.2204)
+2026-01-12 11:03:57.272  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:57.306  4547-7737  rcode_detection         com.example.barcode_detection        I  Background young concurrent mark compact GC freed 484KB AllocSpace bytes, 7(6028KB) LOS objects, 37% free, 11MB/19MB, paused 1.050ms,9.306ms total 42.367ms
+2026-01-12 11:03:57.361  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:57.361  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6171352, bbox=RectF(168.21585, 371.03433, 311.07626, 434.95877)
+2026-01-12 11:03:57.388  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:57.476  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:57.476  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.61673, bbox=RectF(168.53578, 371.23236, 311.61646, 434.27448)
+2026-01-12 11:03:57.503  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:57.595  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:57.596  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6052672, bbox=RectF(168.44868, 371.13043, 311.38196, 434.3695)
+2026-01-12 11:03:57.621  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:57.676  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 452KB AllocSpace bytes, 11(10MB) LOS objects, 49% free, 9867KB/19MB, paused 336us,11.207ms total 72.411ms
+2026-01-12 11:03:57.712  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:57.712  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6024163, bbox=RectF(167.75256, 370.78082, 310.82373, 436.26074)
+2026-01-12 11:03:57.742  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:57.815  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:57.816  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.5439592, bbox=RectF(166.9526, 370.0577, 310.7513, 436.43704)
+2026-01-12 11:03:57.832  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:57.915  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=0
+2026-01-12 11:03:57.915  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:57.929  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:58.024  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=1
+2026-01-12 11:03:58.024  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:58.063  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:58.135  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=2
+2026-01-12 11:03:58.135  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:58.150  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:58.248  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=3
+2026-01-12 11:03:58.248  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:03:58.268  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:58.332  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 460KB AllocSpace bytes, 9(8436KB) LOS objects, 49% free, 9767KB/19MB, paused 691us,9.140ms total 75.148ms
+2026-01-12 11:03:58.363  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=4
+2026-01-12 11:03:58.363  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.58791625, bbox=RectF(179.0882, 369.3333, 318.15363, 438.1916)
+2026-01-12 11:03:58.385  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:58.468  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:58.469  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.75616616, bbox=RectF(173.35733, 373.31055, 314.88644, 432.42822)
+2026-01-12 11:03:58.482  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:58.567  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:58.567  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.68912613, bbox=RectF(173.75919, 373.28543, 314.17325, 431.58914)
+2026-01-12 11:03:58.579  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:58.676  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:58.676  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.6658358, bbox=RectF(180.2698, 371.54227, 319.46213, 432.10947)
+2026-01-12 11:03:58.721  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:58.726  4547-7737  rcode_detection         com.example.barcode_detection        I  Background young concurrent mark compact GC freed 472KB AllocSpace bytes, 9(8436KB) LOS objects, 34% free, 12MB/19MB, paused 862us,12.637ms total 41.027ms
+2026-01-12 11:03:58.799  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:58.799  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.8141172, bbox=RectF(162.8671, 370.18564, 321.8776, 440.5862)
+2026-01-12 11:03:58.823  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:58.881  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 392KB AllocSpace bytes, 6(5624KB) LOS objects, 49% free, 9735KB/19MB, paused 267us,6.713ms total 50.875ms
+2026-01-12 11:03:58.923  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:58.923  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.75832015, bbox=RectF(156.66292, 371.7271, 314.10822, 437.40503)
+2026-01-12 11:03:58.953  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:59.031  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:59.031  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.8354874, bbox=RectF(161.99838, 371.20773, 315.45883, 436.13303)
+2026-01-12 11:03:59.045  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:59.131  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:59.131  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.74228597, bbox=RectF(174.73505, 372.4433, 314.64996, 432.1297)
+2026-01-12 11:03:59.146  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:59.228  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:59.228  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7863033, bbox=RectF(153.92297, 369.66608, 311.5984, 436.9671)
+2026-01-12 11:03:59.246  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:59.339  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:59.339  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.8182395, bbox=RectF(155.22736, 370.07812, 313.84784, 436.83862)
+2026-01-12 11:03:59.361  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:59.449  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:59.449  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.8932972, bbox=RectF(157.58647, 367.9583, 315.07495, 436.35327)
+2026-01-12 11:03:59.464  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:59.555  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:59.555  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.82445735, bbox=RectF(154.92902, 369.30157, 313.63745, 436.13293)
+2026-01-12 11:03:59.579  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:59.665  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:59.666  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.80975693, bbox=RectF(154.14551, 369.34164, 312.7622, 436.38962)
+2026-01-12 11:03:59.680  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:59.766  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:59.766  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.8582525, bbox=RectF(155.68939, 369.17264, 313.95312, 436.50198)
+2026-01-12 11:03:59.780  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:59.820  4547-7737  rcode_detection         com.example.barcode_detection        I  Background young concurrent mark compact GC freed 464KB AllocSpace bytes, 9(8436KB) LOS objects, 34% free, 12MB/18MB, paused 440us,11.864ms total 43.559ms
+2026-01-12 11:03:59.874  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:59.874  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.77678394, bbox=RectF(153.90846, 369.71533, 311.8034, 437.93115)
+2026-01-12 11:03:59.899  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:03:59.956  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 368KB AllocSpace bytes, 6(5624KB) LOS objects, 49% free, 9795KB/19MB, paused 1.400ms,6.851ms total 70.846ms
+2026-01-12 11:03:59.988  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:03:59.988  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.5208795, bbox=RectF(165.55664, 370.5792, 311.3404, 435.645)
+2026-01-12 11:04:00.013  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:00.119  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:04:00.119  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.7673335, bbox=RectF(154.29759, 371.55945, 312.19934, 438.3133)
+2026-01-12 11:04:00.154  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:00.219  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:04:00.219  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.87655693, bbox=RectF(158.8818, 368.0265, 314.8983, 435.25488)
+2026-01-12 11:04:00.243  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:00.327  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:04:00.327  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.88510835, bbox=RectF(160.00671, 367.7774, 314.5642, 434.73907)
+2026-01-12 11:04:00.346  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:00.369  4547-7737  rcode_detection         com.example.barcode_detection        I  Background young concurrent mark compact GC freed 496KB AllocSpace bytes, 9(8436KB) LOS objects, 36% free, 12MB/19MB, paused 216us,6.367ms total 28.607ms
+2026-01-12 11:04:00.437  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:04:00.438  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.9060473, bbox=RectF(156.49237, 364.35437, 309.19922, 438.88843)
+2026-01-12 11:04:00.462  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:00.562  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:04:00.562  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.9055631, bbox=RectF(150.04941, 366.076, 308.5535, 435.07678)
+2026-01-12 11:04:00.576  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:00.738  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:04:00.739  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.9148537, bbox=RectF(141.41757, 313.2705, 321.29898, 425.41284)
+2026-01-12 11:04:00.768  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:00.869  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=true, detections=1, missCount=0
+2026-01-12 11:04:00.870  4547-7871  MainActivity            com.example.barcode_detection        D    → Barcode detected: score=0.9197207, bbox=RectF(171.18877, 11.840782, 387.27808, 257.22488)
+2026-01-12 11:04:00.898  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:00.987  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=0
+2026-01-12 11:04:00.988  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:04:01.026  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:01.099  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=1
+2026-01-12 11:04:01.099  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:04:01.116  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:01.212  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=2
+2026-01-12 11:04:01.213  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:04:01.226  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:01.325  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=3
+2026-01-12 11:04:01.325  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:04:01.341  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:01.422  4547-7871  MainActivity            com.example.barcode_detection        D  DECODED state: hasBarcode=false, detections=0, missCount=4
+2026-01-12 11:04:01.422  4547-7871  MainActivity            com.example.barcode_detection        W    → NO barcode detected! missCount will increment
+2026-01-12 11:04:01.422  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode EXITED (missCount=5)
+2026-01-12 11:04:01.422  4547-7871  MainActivity            com.example.barcode_detection        W  EXIT TRIGGERED! Barcode exited after 5 misses
+2026-01-12 11:04:01.422  4547-7871  StateController         com.example.barcode_detection        I  State transition: DECODED -> RESETTING (reason: Barcode exited)
+2026-01-12 11:04:01.422  4547-7871  MainActivity            com.example.barcode_detection        I  State: DECODED -> RESETTING
+2026-01-12 11:04:01.436  4547-7871  TemporalVoting          com.example.barcode_detection        D  Temporal voting reset
+2026-01-12 11:04:01.436  4547-7871  MotionDetector          com.example.barcode_detection        D  Motion detector reset
+2026-01-12 11:04:01.436  4547-7871  MainActivity            com.example.barcode_detection        I  System reset complete
+2026-01-12 11:04:01.436  4547-7871  StateController         com.example.barcode_detection        I  State transition: RESETTING -> IDLE (reason: Reset complete)
+2026-01-12 11:04:01.436  4547-7871  MainActivity            com.example.barcode_detection        I  State: RESETTING -> IDLE
+2026-01-12 11:04:01.446  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:01.459  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:01.474  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:02.447  4547-7871  StateController         com.example.barcode_detection        I  State transition: IDLE -> DETECTING (reason: Motion detected)
+2026-01-12 11:04:02.447  4547-7871  MainActivity            com.example.barcode_detection        I  State: IDLE -> DETECTING
+2026-01-12 11:04:02.465  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:02.473  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:02.607  4547-7871  TemporalVoting          com.example.barcode_detection        V  Barcode UNCERTAIN (missCount=1)
+2026-01-12 11:04:02.627  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:02.673  4547-7737  rcode_detection         com.example.barcode_detection        I  Background young concurrent mark compact GC freed 512KB AllocSpace bytes, 4(3216KB) LOS objects, 20% free, 9415KB/11MB, paused 963us,6.935ms total 43.756ms
+2026-01-12 11:04:02.732  4547-7871  TemporalVoting          com.example.barcode_detection        V  Barcode UNCERTAIN (missCount=2)
+2026-01-12 11:04:02.762  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:02.883  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode ABSENT (missCount=3)
+2026-01-12 11:04:02.883  4547-7871  StateController         com.example.barcode_detection        I  State transition: DETECTING -> IDLE (reason: No barcode detected)
+2026-01-12 11:04:02.883  4547-7871  MainActivity            com.example.barcode_detection        I  State: DETECTING -> IDLE
+2026-01-12 11:04:02.901  4547-7871  MotionDetector          com.example.barcode_detection        V  Motion score: 0,091
+2026-01-12 11:04:02.901  4547-7871  StateController         com.example.barcode_detection        I  State transition: IDLE -> DETECTING (reason: Motion detected)
+2026-01-12 11:04:02.901  4547-7871  MainActivity            com.example.barcode_detection        I  State: IDLE -> DETECTING
+2026-01-12 11:04:02.908  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:02.924  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:02.948  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:02.957  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.028  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode ABSENT (missCount=4)
+2026-01-12 11:04:03.029  4547-7871  StateController         com.example.barcode_detection        I  State transition: DETECTING -> IDLE (reason: No barcode detected)
+2026-01-12 11:04:03.029  4547-7871  MainActivity            com.example.barcode_detection        I  State: DETECTING -> IDLE
+2026-01-12 11:04:03.051  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.053  4547-7871  MotionDetector          com.example.barcode_detection        V  Motion score: 0,075
+2026-01-12 11:04:03.054  4547-7871  StateController         com.example.barcode_detection        I  State transition: IDLE -> DETECTING (reason: Motion detected)
+2026-01-12 11:04:03.054  4547-7871  MainActivity            com.example.barcode_detection        I  State: IDLE -> DETECTING
+2026-01-12 11:04:03.057  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.074  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.087  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.188  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode ABSENT (missCount=5)
+2026-01-12 11:04:03.188  4547-7871  StateController         com.example.barcode_detection        I  State transition: DETECTING -> IDLE (reason: No barcode detected)
+2026-01-12 11:04:03.188  4547-7871  MainActivity            com.example.barcode_detection        I  State: DETECTING -> IDLE
+2026-01-12 11:04:03.207  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.225  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.237  4547-7871  MotionDetector          com.example.barcode_detection        V  Motion score: 0,142
+2026-01-12 11:04:03.237  4547-7871  StateController         com.example.barcode_detection        I  State transition: IDLE -> DETECTING (reason: Motion detected)
+2026-01-12 11:04:03.237  4547-7871  MainActivity            com.example.barcode_detection        I  State: IDLE -> DETECTING
+2026-01-12 11:04:03.259  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.268  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.366  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode ABSENT (missCount=6)
+2026-01-12 11:04:03.366  4547-7871  StateController         com.example.barcode_detection        I  State transition: DETECTING -> IDLE (reason: No barcode detected)
+2026-01-12 11:04:03.366  4547-7871  MainActivity            com.example.barcode_detection        I  State: DETECTING -> IDLE
+2026-01-12 11:04:03.387  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.404  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.444  4547-7871  MotionDetector          com.example.barcode_detection        V  Motion score: 0,079
+2026-01-12 11:04:03.444  4547-7871  StateController         com.example.barcode_detection        I  State transition: IDLE -> DETECTING (reason: Motion detected)
+2026-01-12 11:04:03.444  4547-7871  MainActivity            com.example.barcode_detection        I  State: IDLE -> DETECTING
+2026-01-12 11:04:03.456  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.468  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.579  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode ABSENT (missCount=7)
+2026-01-12 11:04:03.579  4547-7871  StateController         com.example.barcode_detection        I  State transition: DETECTING -> IDLE (reason: No barcode detected)
+2026-01-12 11:04:03.579  4547-7871  MainActivity            com.example.barcode_detection        I  State: DETECTING -> IDLE
+2026-01-12 11:04:03.592  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.606  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.637  4547-7871  MotionDetector          com.example.barcode_detection        V  Motion score: 0,078
+2026-01-12 11:04:03.637  4547-7871  StateController         com.example.barcode_detection        I  State transition: IDLE -> DETECTING (reason: Motion detected)
+2026-01-12 11:04:03.638  4547-7871  MainActivity            com.example.barcode_detection        I  State: IDLE -> DETECTING
+2026-01-12 11:04:03.659  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.669  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.779  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode ABSENT (missCount=8)
+2026-01-12 11:04:03.779  4547-7871  StateController         com.example.barcode_detection        I  State transition: DETECTING -> IDLE (reason: No barcode detected)
+2026-01-12 11:04:03.780  4547-7871  MainActivity            com.example.barcode_detection        I  State: DETECTING -> IDLE
+2026-01-12 11:04:03.809  4547-7871  MotionDetector          com.example.barcode_detection        V  Motion score: 0,063
+2026-01-12 11:04:03.809  4547-7871  StateController         com.example.barcode_detection        I  State transition: IDLE -> DETECTING (reason: Motion detected)
+2026-01-12 11:04:03.809  4547-7871  MainActivity            com.example.barcode_detection        I  State: IDLE -> DETECTING
+2026-01-12 11:04:03.809  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.819  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.850  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.869  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.877  4547-7737  rcode_detection         com.example.barcode_detection        I  Background young concurrent mark compact GC freed 480KB AllocSpace bytes, 4(3216KB) LOS objects, 24% free, 10MB/13MB, paused 901us,14.168ms total 51.442ms
+2026-01-12 11:04:03.926  4547-4547  CameraOrientationUtil   com.example.barcode_detection        D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2026-01-12 11:04:03.974  4547-7871  TemporalVoting          com.example.barcode_detection        D  Barcode ABSENT (missCount=9)
+2026-01-12 11:04:03.974  4547-7871  StateController         com.example.barcode_detection        I  State transition: DETECTING -> IDLE (reason: No barcode detected)
+2026-01-12 11:04:03.974  4547-7871  MainActivity            com.example.barcode_detection        I  State: DETECTING -> IDLE
+2026-01-12 11:04:03.993  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:03.996  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:04.002  4547-7871  MotionDetector          com.example.barcode_detection        V  Motion score: 0,073
+2026-01-12 11:04:04.002  4547-7871  StateController         com.example.barcode_detection        I  State transition: IDLE -> DETECTING (reason: Motion detected)
+2026-01-12 11:04:04.002  4547-7871  MainActivity            com.example.barcode_detection        I  State: IDLE -> DETECTING
+2026-01-12 11:04:04.030  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:04.035  4547-7762  gralloc4                com.example.barcode_detection        I  @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+2026-01-12 11:04:04.151  4547-7737  rcode_detection         com.example.barcode_detection        I  Background concurrent mark compact GC freed 420KB AllocSpace bytes, 4(4816KB) LOS objects, 49% free, 9835KB/19MB, paused 1.094ms,7.223ms total 121.906ms
+2026-01-12 11:04:04.159  1735-1

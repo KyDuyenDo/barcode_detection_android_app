@@ -1,0 +1,314 @@
+============================================================
+TECHNICAL SPECIFICATION (TXT)
+Conveyor-Based Box Counting System
+Barcode + PO Recognition (Long-Running Industrial Vision)
+============================================================
+
+VERSION: 1.0
+LANGUAGE: English
+TARGET: Coding Agents / System Engineers
+RUNTIME: 7–8 hours continuous operation
+
+------------------------------------------------------------
+1. SYSTEM OBJECTIVE
+------------------------------------------------------------
+
+The system is designed to automatically count boxes on a conveyor belt by:
+- Detecting a barcode on each box
+- Decoding the barcode exactly once
+- Reading a PO (Purchase Order) code printed below the barcode using OCR
+- Preventing double counting
+- Running continuously without overheating, lag, or frame drops
+
+The system operates in an industrial environment with:
+- Fixed camera position
+- Side-view of moving boxes
+- Stable lighting
+- Human operator removing boxes after scan
+
+------------------------------------------------------------
+2. CORE DESIGN PRINCIPLES
+------------------------------------------------------------
+
+1. Event-driven, not frame-driven
+2. Detection and decoding are separate responsibilities
+3. Barcode must be decoded once and only once
+4. PO OCR is secondary metadata, never a gatekeeper
+5. Barcode disappearance is the reset signal
+6. Thermal stability is a first-class requirement
+
+------------------------------------------------------------
+3. PHYSICAL SETUP ASSUMPTIONS
+------------------------------------------------------------
+
+- Conveyor belt moves boxes in a single direction
+- Camera is fixed on the side, facing the label surface
+- Barcode is printed on the label
+- PO text is printed below the barcode
+- Boxes reach a physical anchor point and are removed by a worker
+- Barcode enters → stays → exits camera view in a predictable path
+
+------------------------------------------------------------
+4. SYSTEM COMPONENTS
+------------------------------------------------------------
+
+1. Camera Module (CameraX)
+2. Motion Detection Gate (lightweight)
+3. ROI Extraction Module
+4. MobileNetV2 Detection Module
+5. Stability & Temporal Voting Module
+6. ML Kit Barcode Decoder
+7. PO OCR Module
+8. State Machine Controller
+9. Reset & Cleanup Logic
+10. Data Logging Module
+
+------------------------------------------------------------
+5. SYSTEM STATE MACHINE (MANDATORY)
+------------------------------------------------------------
+
+States:
+
+- IDLE
+- DETECTING
+- READY_TO_DECODE
+- DECODED
+- RESETTING
+
+------------------------------------------------------------
+6. STATE TRANSITIONS
+------------------------------------------------------------
+
+IDLE
+ -> Motion detected
+ -> DETECTING
+
+DETECTING
+ -> Barcode detected consistently (N frames)
+ -> READY_TO_DECODE
+
+READY_TO_DECODE
+ -> ML Kit decode success
+ -> DECODED
+ -> (timeout or barcode lost returns to DETECTING)
+
+DECODED
+ -> Barcode exits camera view
+ -> RESETTING
+
+RESETTING
+ -> Cleanup completed
+ -> IDLE
+
+------------------------------------------------------------
+7. STATE LOCKING RULES
+------------------------------------------------------------
+
+- After entering DECODED:
+  - No detection
+  - No decoding
+  - No OCR re-trigger
+- Only barcode disappearance can unlock the system
+- No time-based reset is allowed
+
+------------------------------------------------------------
+8. TASK BREAKDOWN FOR AGENT IMPLEMENTATION
+------------------------------------------------------------
+
+------------------------------------------------------------
+TASK 1: Camera Frame Acquisition
+------------------------------------------------------------
+
+Responsibilities:
+- Capture frames using CameraX
+- Use STRATEGY_KEEP_ONLY_LATEST
+- Avoid per-frame bitmap allocation
+- Provide frame timestamps
+
+------------------------------------------------------------
+TASK 2: Motion Detection Gate
+------------------------------------------------------------
+
+Purpose:
+- Prevent unnecessary inference
+
+Logic:
+- Compute frame difference or edge energy
+- If motionScore < threshold, skip detection
+
+------------------------------------------------------------
+TASK 3: ROI Extraction
+------------------------------------------------------------
+
+Purpose:
+- Reduce inference cost
+
+Logic:
+- Use a fixed ROI where the barcode is expected
+- Crop ROI before passing to MobileNetV2
+- ROI is configurable per installation
+
+------------------------------------------------------------
+TASK 4: MobileNetV2 Detection
+------------------------------------------------------------
+
+Purpose:
+- Detect presence of barcode/box (NOT decoding)
+
+Rules:
+- Run only in DETECTING state
+- Run only if motion gate passes
+- Throttled to 5–10 FPS
+- No per-frame inference
+
+------------------------------------------------------------
+TASK 5: Temporal Voting & Stability
+------------------------------------------------------------
+
+Rules:
+- detectCount >= 2  -> barcode present
+- missCount   >= 3  -> barcode absent
+
+Stability conditions:
+- Bounding box movement below threshold
+- No sudden scale change
+- Low motion score
+
+------------------------------------------------------------
+TASK 6: ML Kit Barcode Decoding
+------------------------------------------------------------
+
+Rules:
+- Triggered only in READY_TO_DECODE
+- Single-shot execution
+- Timeout enforced (300–500 ms)
+- Decode exactly once per box
+
+On success:
+- Store barcode value
+- Transition to DECODED
+- Lock state
+
+------------------------------------------------------------
+TASK 7: PO OCR (Below Barcode)
+------------------------------------------------------------
+
+Rules:
+- Triggered only after barcode decode success
+- Runs only once per box
+- OCR ROI is below barcode bounding box
+- OCR failure must NOT affect barcode counting
+
+OCR ROI:
+- Top = barcode_bbox.bottom + offset
+- Bottom = Top + configured height
+- Left/Right = barcode_bbox left/right
+
+OCR Post-processing:
+- Trim whitespace
+- Uppercase normalization
+- Remove illegal characters
+- Validate against regex
+
+Example regex:
+^[A-Z0-9\-]{5,20}$
+
+------------------------------------------------------------
+TASK 8: Barcode Exit Detection
+------------------------------------------------------------
+
+Purpose:
+- Detect when box leaves camera view
+
+Logic:
+- missCount >= EXIT_THRESHOLD
+- Or bounding box fully outside ROI
+
+Triggers:
+- Transition to RESETTING
+
+------------------------------------------------------------
+TASK 9: Reset & Cleanup
+------------------------------------------------------------
+
+Responsibilities:
+- Clear detection buffers
+- Reset counters
+- Clear decoded flags
+- Prepare for next box
+
+After cleanup:
+- Transition to IDLE
+
+------------------------------------------------------------
+9. PERFORMANCE & THERMAL CONSTRAINTS
+------------------------------------------------------------
+
+Target constraints:
+- Vision FPS: 5–10
+- Decode calls: <= 1 per box
+- OCR calls: <= 1 per box
+- CPU load: < 1 core sustained
+- Runtime: 7–8 hours continuous
+- No thermal throttling
+
+------------------------------------------------------------
+10. FAILURE HANDLING
+------------------------------------------------------------
+
+- Barcode decode fails:
+  - Do not retry
+  - Wait for barcode exit
+- PO OCR fails:
+  - Barcode count still valid
+  - PO marked as missing
+- Motion noise:
+  - Handled by temporal voting
+
+------------------------------------------------------------
+11. ANTI-DOUBLE-COUNT GUARANTEES
+------------------------------------------------------------
+
+Double counting is prevented because:
+1. Decode is single-shot
+2. State locks after decode
+3. Reset requires physical exit
+4. No time-based reset
+
+------------------------------------------------------------
+12. DATA RECORD FORMAT
+------------------------------------------------------------
+
+Each box record:
+
+{
+  "barcode": "STRING",
+  "po": "STRING | NULL",
+  "po_status": "CONFIRMED | MISSING",
+  "timestamp": "ISO8601",
+  "camera_id": "STRING",
+  "frame_id": "STRING"
+}
+
+------------------------------------------------------------
+13. KEY ENGINEERING INSIGHTS
+------------------------------------------------------------
+
+- Barcode disappearance is a stronger signal than decode success
+- MobileNetV2 is used as a motion-aware sensor, not a classifier
+- ML Kit is used only for certainty, not responsiveness
+- OCR is metadata, never control logic
+- Thermal stability comes from discipline, not model size
+
+------------------------------------------------------------
+14. FINAL VERDICT
+------------------------------------------------------------
+
+- Architecture is production-grade
+- Suitable for industrial conveyor systems
+- Stable for long continuous operation
+- Resistant to motion, vibration, and human interaction
+
+============================================================
+END OF DOCUMENT
+============================================================

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/viewFinder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.example.barcode_detection.OverlayView
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- State Indicator -->
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IDLE"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#80000000"
+        android:padding="12dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="16dp"/>
+
+    <!-- Box Count -->
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count: 0"
+        android:textColor="#00FF00"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="#80000000"
+        android:padding="12dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <!-- Barcode Display -->
+    <TextView
+        android:id="@+id/tv_barcode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Barcode: -"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="#80000000"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@id/tv_po"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- PO Display -->
+    <TextView
+        android:id="@+id/tv_po"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="PO: -"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="#80000000"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@id/tv_debug"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- Debug Info -->
+    <TextView
+        android:id="@+id/tv_debug"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Waiting for barcode..."
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:background="#80000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

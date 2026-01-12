@@ -1,9 +1,13 @@
 package com.example.barcode_detection
 
+import android.Manifest
+import android.content.pm.PackageManager
 import android.graphics.*
 import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
+import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.core.*
 import androidx.camera.lifecycle.ProcessCameraProvider
@@ -54,6 +58,18 @@ class MainActivity : AppCompatActivity() {
     private var boxCount = 0
     private var conveyorDirection = "" // "→" or "←" hoặc ""
 
+    private val requestPermissionLauncher =
+            registerForActivityResult(ActivityResultContracts.RequestPermission()) {
+                    isGranted: Boolean ->
+                if (isGranted) {
+                    Log.i(TAG, "Camera permission granted")
+                    startCamera()
+                } else {
+                    Log.e(TAG, "Camera permission denied")
+                    Toast.makeText(this, "Camera permission required", Toast.LENGTH_LONG).show()
+                }
+            }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -74,9 +90,12 @@ class MainActivity : AppCompatActivity() {
         ocr = POOCRProcessor(config)
         tracker = TrackingManager(config)
 
-        // Initialize logger
-        val logDir = File(getExternalFilesDir(null), "box_logs")
-        logger = DataLogger(logDir)
+        // Initialize logger in background to avoid ANR
+        executor.execute {
+            val logDir = File(getExternalFilesDir(null), "box_logs")
+            logger = DataLogger(logDir)
+            Log.i(TAG, "DataLogger initialized at: ${logDir.absolutePath}")
+        }
 
         Log.i(TAG, "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
         Log.i(TAG, "App started - Config:")
@@ -84,11 +103,10 @@ class MainActivity : AppCompatActivity() {
         Log.i(TAG, "  blurThreshold: ${config.blurThreshold}")
         Log.i(TAG, "  scanningIntervalMs: ${config.scanningIntervalMs}")
         Log.i(TAG, "  Initial state: ${state.getState()}")
-        Log.i(TAG, "  Log directory: ${logDir.absolutePath}")
         Log.i(TAG, "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 
         updateUI()
-        startCamera()
+        checkCameraPermission()
     }
 
     override fun onResume() {
@@ -101,6 +119,16 @@ class MainActivity : AppCompatActivity() {
     // =========================================================
     // Camera setup
     // =========================================================
+    private fun checkCameraPermission() {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) ==
+                        PackageManager.PERMISSION_GRANTED
+        ) {
+            startCamera()
+        } else {
+            requestPermissionLauncher.launch(Manifest.permission.CAMERA)
+        }
+    }
+
     private fun startCamera() {
         Log.d(TAG, "Starting camera...")
         val providerFuture = ProcessCameraProvider.getInstance(this)
@@ -230,17 +258,21 @@ class MainActivity : AppCompatActivity() {
                             boxCount++
 
                             // Log the box record
-                            val record =
-                                    logger.createRecord(
-                                            barcode = barcodeValue,
-                                            po = po,
-                                            poStatus =
-                                                    if (po != null) POStatus.CONFIRMED
-                                                    else POStatus.MISSING,
-                                            cameraId = "0",
-                                            frameId = "frame_$frameCount"
-                                    )
-                            logger.logRecord(record)
+                            if (::logger.isInitialized) {
+                                val record =
+                                        logger.createRecord(
+                                                barcode = barcodeValue,
+                                                po = po,
+                                                poStatus =
+                                                        if (po != null) POStatus.CONFIRMED
+                                                        else POStatus.MISSING,
+                                                cameraId = "0",
+                                                frameId = "frame_$frameCount"
+                                        )
+                                logger.logRecord(record)
+                            } else {
+                                Log.w(TAG, "Logger not initialized yet, skipping log")
+                            }
 
                             Log.i(TAG, "📦 BOX #$boxCount: $barcodeValue (PO: ${po ?: "N/A"})")
                         }
@@ -451,7 +483,9 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         Log.i(TAG, "App destroyed - Total boxes: $boxCount")
-        logger.flushToFile()
+        if (::logger.isInitialized) {
+            logger.flushToFile()
+        }
         executor.shutdown()
         decoder.close()
     }

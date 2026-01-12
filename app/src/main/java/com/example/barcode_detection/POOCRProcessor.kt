@@ -18,7 +18,7 @@ class POOCRProcessor(private val config: SystemConfig) {
     }
 
     private val recognizer = TextRecognition.getClient(TextRecognizerOptions.DEFAULT_OPTIONS)
-    private val poRegex = Regex(config.poRegexPattern)
+    private val poRegex = Regex(config.poCodePattern)
 
     /**
      * Extract and validate PO code from region below barcode.
@@ -65,8 +65,9 @@ class POOCRProcessor(private val config: SystemConfig) {
 
     /** Calculate OCR rectangle below barcode */
     private fun calculateOCRRect(barcodeBbox: RectF, frameWidth: Int, frameHeight: Int): RectF {
-        val top = (barcodeBbox.bottom + config.poOcrOffsetY).coerceIn(0f, frameHeight.toFloat())
-        val bottom = (top + config.poOcrHeight).coerceIn(top, frameHeight.toFloat())
+        val top = (barcodeBbox.bottom).coerceIn(0f, frameHeight.toFloat())
+        val height = barcodeBbox.height() * config.ocrRegionHeightRatio
+        val bottom = (top + height).coerceIn(top, frameHeight.toFloat())
 
         return RectF(
                 barcodeBbox.left.coerceIn(0f, frameWidth.toFloat()),

@@ -47,9 +47,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     
-    // ONNX Runtime
-    implementation("com.microsoft.onnxruntime:onnxruntime-android:latest.release")
-
     // CameraX
     val camerax_version = "1.3.0"
     implementation("androidx.camera:camera-core:${camerax_version}")
